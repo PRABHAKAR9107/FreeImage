@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+header {
+  background-color: #4daa74;
+  height: 70px;
+  width: 100%;
+}
+.logo {
+  margin-top: -15px;
+}
+header .main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.nav-items {
+  margin-top: -100px;
+  margin-right: 3em;
+}
+
+.nav-items li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 4em;
+  font-size: 15px;
+  color: #fff;
+}
+
+.github {
+  margin-top: -115px;
+  margin-right: 5px;
+}
