@@ -11,9 +11,9 @@ function Hero() {
       <Box className="hero-box">
         <img src={HeroCover} height={200} width={200} />
         <Box>
-          <Typography variant="h5"> Stunning free Images Webpages </Typography>
+          <Typography variant="h5"> Stunning Free Images Webpages </Typography>
         </Box>
-        <Box>
+        <Box className="hero-button">
           <Button variant="outlined" color="secondary">
             Explore
           </Button>
